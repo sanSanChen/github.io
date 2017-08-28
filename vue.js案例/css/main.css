@@ -1,0 +1,49 @@
+body{
+	background: #000;
+	color:#9d9d9d;
+}
+*{
+	text-shadow:0 0 20px #c00;
+}
+#app button{
+
+}
+ul{
+	padding: 0;
+}
+.navbar-inverse{
+	border: none;
+}
+.sidebar-nav{
+		position: fixed;
+		top: 50px;
+		left: 0;
+		width: 200px;
+		height: 100%;
+		background: #222;
+		box-shadow: 0 0 20px #c00;
+	}
+	.sidebar-nav ul{
+		padding: 0;
+		border: none;
+	}
+	.sidebar-nav li{
+		background: #222;
+		border-left: none;
+		border-right: none;
+		box-shadow: 0 0 10px #c00;
+	}
+	.sidebar-nav li a{
+		display: block;
+		width: 100%;
+		height: 100%;
+		text-decoration: none;
+		color: #9d9d9d;
+		text-shadow:0 0 10px;
+	}
+	.sidebar-nav li:hover {
+		background:#eee
+	}
+	.sidebar-nav li:hover a{
+		color: #000;
+	}
