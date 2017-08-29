@@ -24,12 +24,12 @@
 				<dl>
 					<dt>网站地图</dt>
 					<dd class="webmap">
-						<a href="javascript:;">服务介绍</a>
-						<a href="javascript:;">解决方案</a>
-						<a href="javascript:;">典型案例</a>
-						<a href="javascript:;">关于九秒</a>
-						<a href="javascript:;">加入我们</a>
-						<a href="javascript:;">联系我们</a>
+						<router-link to="/product">服务介绍</router-link>
+						<router-link to="/solution">解决方案</router-link>
+						<router-link to="/classiccase">典型案例</router-link>
+						<router-link to="/about">关于九秒</router-link>
+						<router-link to="/joinus">加入我们</router-link>
+						<router-link to="/contactus">联系我们</router-link>
 					</dd>
 				</dl>
 				<dl class="last">

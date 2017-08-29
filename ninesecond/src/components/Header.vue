@@ -1,5 +1,11 @@
 <template>
 	<header>
+		<a name="/product"></a>
+		<a name="/solution"></a>
+		<a name="/classiccase"></a>
+		<a name="/about"></a>
+		<a name="/joinus"></a>
+		<a name="/contactus"></a>
 		<div class="top clearfix">
 			<div class="hotline fl">
 				{{hotline}}
