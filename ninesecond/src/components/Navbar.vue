@@ -73,7 +73,10 @@
 		font-size: 16px;
 		text-align: center;
 	}
-	.nav a.hover{
+	/* .nav a.hover{
+		background: #f2f2f2;
+	} */
+	.nav a:hover{
 		background: #f2f2f2;
 	}
 </style>
